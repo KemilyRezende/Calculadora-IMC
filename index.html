@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-EDGE">
+        <meta name="viewport" content="width=device-width, initial scale= 1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="assets/js/imc.js"></script>
+        <title>Calculadora IMC</title> 
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div>
+                <br>
+                <h1>Calculadora IMC</h1>
+            <ul>
+                <li>
+                    <label for="Peso"><b>Peso:</b></label><br>
+                    <input type="text" id="Peso" name="Peso">
+                </li>
+                <li>
+                    <br><label for="Altura"><b>Altura:</b></label><br>
+                    <input type="text" id="Altura" name="Altura">
+                </li>
+                <li>
+                    <br><label for="Sexo"><b>Sexo:</b></label><br>
+                    <select type="text" id="Sexo" name="Sexo">
+                        <option value="F">Feminino</option>
+                        <option value="M">Masculino</option>
+                    </select>
+                </li>
+            </ul>
+            <br><button  type="button" onclick="CalculaIMC()"><b>Calcular</b></button><br>
+            <br><output type="text" id="Resultado" value="Resultado"></output>
+            </div>
+        </main>
+        <footer>
+            <p>Desenvolvido por Kemily Rezende</p>
+        </footer>
+    </body>
+    </html>

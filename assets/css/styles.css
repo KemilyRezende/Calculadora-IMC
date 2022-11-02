@@ -1,0 +1,137 @@
+body{
+    background-image: url('../img/Back.jpg');
+    background-position: center;
+    background-size: 140%;
+    overflow-y: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-right: 16px;
+    height: 80px;
+}
+main div{
+    margin-top: 55px;
+    margin-left: 26%;
+    background-color: aliceblue;
+    height: 460px;
+    width: 700px;
+    border-radius: 26%;
+    border: dashed 4px darkslategray;
+}
+main div h1{
+    font-size: 65px;
+    color:rgb(39, 66, 66);
+    text-align: center;
+    margin-top: 5px;
+}
+
+main div ul li{
+    margin-left: 8%;
+    margin-top: -10px;
+    display:inline-block;
+    list-style: none;
+    text-align: center;
+}
+main div ul li label{
+    font-size: 35px;
+}
+main div ul li input{
+    background-color: aliceblue;
+    width: 124px;
+    height: 37px;
+    border: dotted 2px rgba(0,0,0,0.9);
+
+}
+main div ul li select{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: aliceblue;
+    width: 129px;
+    height: 42px;
+    border: dotted 2px rgba(0,0,0,0.9);
+}
+main div button{
+        margin-top: 10px;
+        background-color:darkslategray;
+        width: 160px;
+        height: 45px;
+        color: rgba(0,0,0,0.9);
+        border: solid 3px rgba(0,0,0,0.9);
+        text-decoration: none;
+        font-size: 27px;
+        margin-left: 37%;
+}
+
+main div output{
+    margin-left: 32%;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(39, 66, 66);
+    text-transform:initial;
+}
+
+footer{
+        background-color: rgba(0,0,0,0.6);
+        width: 100%;
+        margin-top: 94px;
+        margin-left: -8px;
+        padding-right: 16px;
+        height: 35px;
+        text-align: center;
+        font-size: 22px;
+        color:cadetblue;
+}
+@media screen and (max-width: 600px){
+    body{
+        background-image: url('../img/Back.jpg');
+        background-position: center;
+        background-size: 1100%;
+    }
+    header{
+        height: 100px;
+        width: 790px;
+    }
+    main div h1{
+        margin-top: 35px;
+        text-align: center;
+        font-size: 60px;
+    }
+    main div{
+        margin-top: 270px;
+        margin-left: 45px;
+        height: 720px;
+    }
+    main div ul {
+        margin-left: 4%;
+    }
+    main div ul li{
+        margin-top: 15px;
+        display:list-item;
+        list-style: none;
+        text-align: center;
+        margin-left: -11%;
+    }
+    main div ul li input{
+        width: 200px;
+        height: 50px;
+    }
+    main div ul li select{
+        width: 207px;
+        height: 52px;
+    }
+    main div button{
+        margin-top: -6px;
+        margin-left: 38.7%;
+        height: 60px;
+    }
+    footer{
+        margin-top: 332px;
+        height: 50px;
+        width: 790px;
+        font-size: 32px;
+    }
+}
